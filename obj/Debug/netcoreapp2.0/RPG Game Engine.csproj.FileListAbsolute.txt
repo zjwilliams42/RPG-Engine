@@ -1,0 +1,11 @@
+C:\Users\Zachary\Documents\RPG Game Engine\bin\Debug\netcoreapp2.0\RPG Game Engine.deps.json
+C:\Users\Zachary\Documents\RPG Game Engine\bin\Debug\netcoreapp2.0\RPG Game Engine.runtimeconfig.json
+C:\Users\Zachary\Documents\RPG Game Engine\bin\Debug\netcoreapp2.0\RPG Game Engine.runtimeconfig.dev.json
+C:\Users\Zachary\Documents\RPG Game Engine\bin\Debug\netcoreapp2.0\RPG Game Engine.dll
+C:\Users\Zachary\Documents\RPG Game Engine\bin\Debug\netcoreapp2.0\RPG Game Engine.pdb
+C:\Users\Zachary\Documents\RPG Game Engine\obj\Debug\netcoreapp2.0\RPG Game Engine.csprojAssemblyReference.cache
+C:\Users\Zachary\Documents\RPG Game Engine\obj\Debug\netcoreapp2.0\RPG Game Engine.AssemblyInfoInputs.cache
+C:\Users\Zachary\Documents\RPG Game Engine\obj\Debug\netcoreapp2.0\RPG Game Engine.AssemblyInfo.cs
+C:\Users\Zachary\Documents\RPG Game Engine\obj\Debug\netcoreapp2.0\RPG Game Engine.dll
+C:\Users\Zachary\Documents\RPG Game Engine\obj\Debug\netcoreapp2.0\RPG Game Engine.pdb
+C:\Users\Zachary\Documents\RPG Game Engine\obj\Debug\netcoreapp2.0\RPG Game Engine.csproj.CoreCompileInputs.cache
