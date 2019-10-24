@@ -12,8 +12,8 @@ namespace Physics_Sim
         public static class Colors
         {
             public static Color DEFAULT = Color.LightGray;
-            public static Color HIGHLIGHT = Color.LightBlue;
-            public static Color ALLY = Color.LightGreen;
+            public static Color HIGHLIGHT = Color.Blue;
+            public static Color ALLY = Color.Green;
             public static Color HOSTILE = Color.Red;
         }
 

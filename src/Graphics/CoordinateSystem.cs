@@ -23,14 +23,14 @@ namespace Physics_Sim
             public CoordinateSystem(GraphicsDeviceManager graphics)
             {
                 this.graphics = graphics;
-                cameraPosition = new Vector3(25, 15, 25);
+                cameraPosition = new Vector3(-10, 15, 5f);
 
                 grid = new Grid(10, 10);
 
                 float aspectRatio = graphics.PreferredBackBufferWidth / (float)graphics.PreferredBackBufferHeight;
                 effect = new BasicEffect(graphics.GraphicsDevice);
                 effect.VertexColorEnabled = true;
-                effect.View = Matrix.CreateLookAt(cameraPosition, Vector3.Zero, Vector3.UnitY);
+                effect.View = Matrix.CreateLookAt(cameraPosition, new Vector3(grid.X/2, 0, grid.Z/2), Vector3.UnitY);
                 effect.Projection = Matrix.CreatePerspectiveFieldOfView(0.50f, aspectRatio, 1, 200);
 
                 characters = new List<Character>();

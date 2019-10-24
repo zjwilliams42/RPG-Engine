@@ -16,6 +16,8 @@ namespace RPG_Game_Engine
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
+            graphics.PreferredBackBufferWidth = 1024;
+            graphics.PreferredBackBufferHeight = 768; 
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
         }
@@ -26,7 +28,7 @@ namespace RPG_Game_Engine
 
             system = new CoordinateSystem(graphics);
 
-            string save_path = "resources\\saves\\save1\\";
+            //string save_path = "resources\\saves\\save1\\";
             RPG.CharCard charcard0 = new RPG.CharCard(0);
             RPG.CharCard charcard1 = new RPG.CharCard(1);
             //charcard0.Save(save_path);
