@@ -9,3 +9,5 @@ C:\Users\Zachary\Documents\RPG Game Engine\obj\Debug\netcoreapp2.0\RPG Game Engi
 C:\Users\Zachary\Documents\RPG Game Engine\obj\Debug\netcoreapp2.0\RPG Game Engine.dll
 C:\Users\Zachary\Documents\RPG Game Engine\obj\Debug\netcoreapp2.0\RPG Game Engine.pdb
 C:\Users\Zachary\Documents\RPG Game Engine\obj\Debug\netcoreapp2.0\RPG Game Engine.csproj.CoreCompileInputs.cache
+C:\Users\Zachary\Documents\RPG Game Engine\bin\Debug\netcoreapp2.0\Content\models\table.xnb
+C:\Users\Zachary\Documents\RPG Game Engine\bin\Debug\netcoreapp2.0\Content\images\seamless-oak_0.xnb

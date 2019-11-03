@@ -20,18 +20,17 @@ namespace Physics_Sim
 
             private List<Character> characters;
 
-            public CoordinateSystem(GraphicsDeviceManager graphics)
+            public CoordinateSystem(GraphicsDeviceManager graphics, Vector3 cameraPosition, Matrix view, Matrix projection, int x, int z)
             {
                 this.graphics = graphics;
-                cameraPosition = new Vector3(-10, 15, 5f);
+                this.cameraPosition = cameraPosition;
 
-                grid = new Grid(10, 10);
+                grid = new Grid(x, z);
 
-                float aspectRatio = graphics.PreferredBackBufferWidth / (float)graphics.PreferredBackBufferHeight;
                 effect = new BasicEffect(graphics.GraphicsDevice);
                 effect.VertexColorEnabled = true;
-                effect.View = Matrix.CreateLookAt(cameraPosition, new Vector3(grid.X/2, 0, grid.Z/2), Vector3.UnitY);
-                effect.Projection = Matrix.CreatePerspectiveFieldOfView(0.50f, aspectRatio, 1, 200);
+                effect.View = view;
+                effect.Projection = projection;
 
                 characters = new List<Character>();
                 characters.Add(new Character());

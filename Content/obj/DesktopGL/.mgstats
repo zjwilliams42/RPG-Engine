@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/Zachary/Documents/RPG Game Engine/Content/images/seamless-oak.png","C:/Users/Zachary/Documents/RPG Game Engine/Content/bin/DesktopGL/images/seamless-oak_0.xnb","TextureProcessor","Texture2DContent",1664561,699189,1.717138
+"C:/Users/Zachary/Documents/RPG Game Engine/Content/models/table.fbx","C:/Users/Zachary/Documents/RPG Game Engine/Content/bin/DesktopGL/models/table.xnb","ModelProcessor","ModelContent",170188,280361,1.972159
